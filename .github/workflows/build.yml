@@ -22,11 +22,13 @@ jobs:
         uses: actions/setup-go@v2
         with:
           go-version: 1.15
+      - name: mkdir
+        run: mkdir -p ./dist
       - name: build
         run: go build -v -o dist/ ./...
       - uses: actions/upload-artifact@v1
         with:
-          name: bibfmt-${{ matrix.runs-on }}
+          name: bibfmt
           path: dist/
 
   publish:

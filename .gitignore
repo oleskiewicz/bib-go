@@ -1,1 +1,4 @@
-/bib
+/cmd/bibfmt/bibfmt
+/cmd/bib2ref/bib2ref
+/cmd/bib2tsv/bib2tsv
+/cmd/bib2yml/bib2yml

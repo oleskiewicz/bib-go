@@ -1,4 +1,4 @@
-name: "build"
+name: "build-dist"
 on: # rebuild any branch changes
   push:
     paths:
